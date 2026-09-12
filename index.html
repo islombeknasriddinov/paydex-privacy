@@ -5,60 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Paydex — Политика конфиденциальности / Privacy policy</title>
 <style>
-:root {
-  --ground: #22201E; --card: #2E2B27; --gold: #E0BC6A; --gold-deep: #C99326;
-  --text: #F2F0EC; --muted: #B5AFA6; --line: #423E39;
-}
-* { box-sizing: border-box; }
+/* Deliberately plain. A policy page is read once, by a reviewer and by
+   whoever goes looking for it, and every language stays on the page so
+   nothing depends on scripting. */
 body {
-  margin: 0; background: var(--ground); color: var(--text);
-  font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0 auto; max-width: 46em; padding: 32px 20px 72px;
+  background: #fff; color: #111;
+  font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
-.wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 96px; }
-.brand { letter-spacing: .38em; font-weight: 800; font-size: 22px; margin: 0 0 4px; }
-.tagline { color: var(--gold); margin: 0 0 40px; font-size: 14px; }
-.card {
-  background: var(--card); border: 1px solid var(--line); border-radius: 16px;
-  padding: 22px 24px; margin-bottom: 36px;
-}
-.card dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; }
-.card dt { color: var(--muted); font-size: 14px; }
-.card dd { margin: 0; font-size: 14px; word-break: break-word; }
-nav { display: flex; gap: 10px; margin-bottom: 32px; flex-wrap: wrap; }
-nav a {
-  color: var(--muted); text-decoration: none; font-size: 14px;
-  border: 1px solid var(--line); border-radius: 999px; padding: 7px 16px;
-}
-nav a.on { color: var(--ground); background: var(--gold); border-color: var(--gold); }
-h1 { font-size: 26px; margin: 0 0 24px; font-weight: 700; }
-h2 { font-size: 17px; margin: 34px 0 10px; font-weight: 700; color: var(--gold); }
-p { margin: 0 0 14px; }
-ul { margin: 0 0 14px; padding-left: 20px; }
-li { margin-bottom: 10px; }
-a { color: var(--gold-deep); }
-/* Without scripting every language simply stays on the page: a policy
-   that renders as a blank sheet in a reviewer's fetcher is worse than a
-   long one. The switch is an enhancement on top. */
-section + section { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 8px; }
-.js section, .js section + section { display: none; border-top: 0; margin-top: 0; padding-top: 0; }
-.js section.on { display: block; }
-.js nav { display: flex; }
-nav { display: none; }
-@media (max-width: 560px) {
-  .card dl { grid-template-columns: 1fr; gap: 0; }
-  .card dd { margin-bottom: 14px; }
-}
-footer { margin-top: 56px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 20px; }
+h1 { font-size: 22px; margin: 40px 0 16px; }
+h1:first-of-type { margin-top: 24px; }
+h2 { font-size: 16px; margin: 26px 0 8px; }
+p { margin: 0 0 12px; }
+ul { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 8px; }
+dl { margin: 0 0 24px; }
+dt { color: #555; font-size: 14px; margin-top: 8px; }
+dd { margin: 0; }
+nav { margin: 0 0 8px; color: #555; font-size: 14px; }
+hr { border: 0; border-top: 1px solid #ddd; margin: 40px 0 0; }
+a { color: #0a58ca; }
+footer { margin-top: 40px; color: #555; font-size: 13px; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <p class="brand">PAYDEX</p>
-  <p class="tagline">Политика конфиденциальности · Maxfiylik siyosati · Privacy policy</p>
-  <div class="card"><dl><dt>Приложение</dt><dd>Paydex</dd><dt>Идентификатор в Google Play</dt><dd>uz.nasriddinovislombek.paydex</dd><dt>Разработчик</dt><dd>Islombek Nasriddinov</dd><dt>Контакт</dt><dd>nasriddinov.islom.19@gmail.com</dd><dt>Дата вступления в силу</dt><dd>12 сентября 2026 г.</dd></dl></div>
-  <nav><a href="#ru">Русский</a><a href="#uz">O‘zbekcha</a><a href="#en">English</a></nav>
-  <section id="ru"><h1>Политика конфиденциальности приложения Paydex</h1>
+<dl><dt>Приложение</dt><dd>Paydex</dd><dt>Идентификатор в Google Play</dt><dd>uz.nasriddinovislombek.paydex</dd><dt>Разработчик</dt><dd>Islombek Nasriddinov</dd><dt>Контакт</dt><dd>nasriddinov.islom.19@gmail.com</dd><dt>Дата вступления в силу</dt><dd>12 сентября 2026 г.</dd></dl>
+<nav><a href="#ru">Русский</a> · <a href="#uz">O‘zbekcha</a> · <a href="#en">English</a></nav>
+<hr><section id="ru"><h1>Политика конфиденциальности приложения Paydex</h1>
 <p>Настоящая политика конфиденциальности описывает работу с данными в приложении Paydex («Приложение»), которое публикует в Google Play разработчик Islombek Nasriddinov («Разработчик»).</p>
 <h2>1. Какие данные собирает Приложение</h2>
 <p>Приложение не собирает и не передаёт персональные данные. У Приложения нет учётных записей, сервера и аналитики, оно не показывает рекламу и не использует сторонние сервисы, которые собирали бы сведения о пользователе.</p>
@@ -76,7 +50,7 @@ footer { margin-top: 56px; color: var(--muted); font-size: 13px; border-top: 1px
 <h2>7. Изменения</h2>
 <p>При изменении политики на этой странице обновляется дата вступления в силу. Существенные изменения будут отражены в описании обновления в Google Play.</p>
 <h2>8. Контакты</h2>
-<p>Вопросы о политике конфиденциальности: <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></p></section><section id="uz"><h1>Paydex ilovasining maxfiylik siyosati</h1>
+<p>Вопросы о политике конфиденциальности: <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></p></section><hr><section id="uz"><h1>Paydex ilovasining maxfiylik siyosati</h1>
 <p>Ushbu maxfiylik siyosati Google Play&#x27;da Islombek Nasriddinov («Dasturchi») tomonidan chop etilgan Paydex ilovasida («Ilova») ma&#x27;lumotlar bilan qanday ishlanishini tavsiflaydi.</p>
 <h2>1. Ilova qanday ma&#x27;lumot to&#x27;playdi</h2>
 <p>Ilova shaxsiy ma&#x27;lumotlarni to&#x27;plamaydi va uzatmaydi. Unda hisob yozuvlari, server va tahlil tizimlari yo&#x27;q, reklama ko&#x27;rsatilmaydi, foydalanuvchi haqida ma&#x27;lumot yig&#x27;adigan uchinchi tomon xizmatlaridan foydalanilmaydi.</p>
@@ -94,7 +68,7 @@ footer { margin-top: 56px; color: var(--muted); font-size: 13px; border-top: 1px
 <h2>7. O&#x27;zgarishlar</h2>
 <p>Siyosat o&#x27;zgarganda ushbu sahifada kuchga kirish sanasi yangilanadi. Muhim o&#x27;zgarishlar Google Play&#x27;dagi yangilanish tavsifida aks ettiriladi.</p>
 <h2>8. Aloqa</h2>
-<p>Maxfiylik siyosati bo&#x27;yicha savollar: <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></p></section><section id="en"><h1>Paydex privacy policy</h1>
+<p>Maxfiylik siyosati bo&#x27;yicha savollar: <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></p></section><hr><section id="en"><h1>Paydex privacy policy</h1>
 <p>This privacy policy describes how data is handled in Paydex (the &quot;App&quot;), published on Google Play by Islombek Nasriddinov (the &quot;Developer&quot;).</p>
 <h2>1. What the App collects</h2>
 <p>The App collects and transmits no personal data. It has no accounts, no server and no analytics, it shows no ads, and it uses no third-party service that would gather information about you.</p>
@@ -113,18 +87,6 @@ footer { margin-top: 56px; color: var(--muted); font-size: 13px; border-top: 1px
 <p>When the policy changes, the effective date on this page is updated. Material changes will be noted in the Google Play release notes.</p>
 <h2>8. Contact</h2>
 <p>Questions about this privacy policy: <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></p></section>
-  <footer>Paydex · uz.nasriddinovislombek.paydex · <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></footer>
-</div>
-<script>
-document.documentElement.classList.add('js');
-const show = (lang) => {
-  for (const s of document.querySelectorAll('section')) s.classList.toggle('on', s.id === lang);
-  for (const a of document.querySelectorAll('nav a')) a.classList.toggle('on', a.hash === '#' + lang);
-};
-for (const a of document.querySelectorAll('nav a')) {
-  a.addEventListener('click', (e) => { e.preventDefault(); history.replaceState(null, '', a.hash); show(a.hash.slice(1)); });
-}
-show((location.hash || '#ru').slice(1));
-</script>
+<footer>Paydex · uz.nasriddinovislombek.paydex · <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></footer>
 </body>
 </html>
